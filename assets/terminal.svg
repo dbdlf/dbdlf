@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="236" viewBox="0 0 800 236">
+  <defs>
+    <style>
+      .mono { font-family: Consolas, 'SFMono-Regular', Menlo, 'Courier New', monospace; font-size: 18px; }
+      .prompt { fill: #3FB950; }
+      .cmd { fill: #E6EDF3; }
+      .out { fill: #8B949E; }
+      .hi { fill: #FFFFFF; }
+      .cover { fill: #0D1117; }
+
+      .t1 { animation: t1 12s infinite; }
+      .t2 { animation: t2 12s infinite; }
+      @keyframes t1 {
+        0%, 4%  { transform: translateX(0); animation-timing-function: steps(6, end); }
+        11%     { transform: translateX(66px); animation-timing-function: step-end; }
+        96%     { transform: translateX(66px); animation-timing-function: step-end; }
+        100%    { transform: translateX(0); }
+      }
+      @keyframes t2 {
+        0%, 20% { transform: translateX(0); animation-timing-function: steps(13, end); }
+        33%     { transform: translateX(143px); animation-timing-function: step-end; }
+        96%     { transform: translateX(143px); animation-timing-function: step-end; }
+        100%    { transform: translateX(0); }
+      }
+
+      .a1 { animation: a1 12s infinite step-end; }
+      .a2 { animation: a2 12s infinite step-end; }
+      .a3 { animation: a3 12s infinite step-end; }
+      .a4 { animation: a4 12s infinite step-end; }
+      @keyframes a1 { 0% { opacity: 0; } 14% { opacity: 1; } 96% { opacity: 0; } }
+      @keyframes a2 { 0% { opacity: 0; } 17% { opacity: 1; } 96% { opacity: 0; } }
+      @keyframes a3 { 0% { opacity: 0; } 36% { opacity: 1; } 96% { opacity: 0; } }
+      @keyframes a4 { 0% { opacity: 0; } 40% { opacity: 1; } 96% { opacity: 0; } }
+
+      .blink { animation: blink 1s infinite step-end; }
+      @keyframes blink { 0% { opacity: 1; } 50% { opacity: 0; } }
+
+      @media (prefers-reduced-motion: reduce) {
+        .t1, .t2, .cover { display: none; }
+        .a1, .a2, .a3, .a4, .blink { animation: none; opacity: 1; }
+      }
+    </style>
+  </defs>
+
+  <!-- window -->
+  <rect x="0.5" y="0.5" width="799" height="235" rx="10" fill="#0D1117" stroke="#30363D"/>
+  <path d="M0.5 36 V10.5 a10 10 0 0 1 10 -10 H789.5 a10 10 0 0 1 10 10 V36 Z" fill="#161B22"/>
+  <line x1="0.5" y1="36" x2="799.5" y2="36" stroke="#30363D"/>
+  <circle cx="22" cy="18" r="6" fill="#FF5F56"/>
+  <circle cx="42" cy="18" r="6" fill="#FFBD2E"/>
+  <circle cx="62" cy="18" r="6" fill="#27C93F"/>
+  <text x="400" y="23" text-anchor="middle" class="mono" font-size="13" fill="#8B949E" style="font-size:13px">dbdlf@github: ~</text>
+
+  <!-- line 1: $ whoami -->
+  <text x="30" y="74" class="mono prompt" textLength="165" lengthAdjust="spacingAndGlyphs">dbdlf@github:~$</text>
+  <text x="206" y="74" class="mono cmd" textLength="66" lengthAdjust="spacingAndGlyphs">whoami</text>
+  <rect class="cover t1" x="204" y="56" width="80" height="24"/>
+
+  <!-- output 1 -->
+  <text x="30" y="104" class="mono hi a1" textLength="55" lengthAdjust="spacingAndGlyphs">dbdlf</text>
+
+  <!-- line 2: $ cat about.txt -->
+  <g class="a2">
+    <text x="30" y="142" class="mono prompt" textLength="165" lengthAdjust="spacingAndGlyphs">dbdlf@github:~$</text>
+    <text x="206" y="142" class="mono cmd" textLength="143" lengthAdjust="spacingAndGlyphs">cat about.txt</text>
+    <rect class="cover t2" x="204" y="124" width="160" height="24"/>
+  </g>
+
+  <!-- output 2 -->
+  <text x="30" y="172" class="mono out a3" textLength="473" lengthAdjust="spacingAndGlyphs">AI major · Cloud minor · building with LLMs</text>
+
+  <!-- line 3: prompt + cursor -->
+  <g class="a4">
+    <text x="30" y="210" class="mono prompt" textLength="165" lengthAdjust="spacingAndGlyphs">dbdlf@github:~$</text>
+    <rect class="blink" x="206" y="195" width="10" height="20" fill="#E6EDF3"/>
+  </g>
+</svg>
