@@ -50,8 +50,9 @@ class Dbdlf:
 ## `> ls ./cloud_and_tools`
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=aws,linux,docker,git,github,vercel,vscode&theme=dark" alt="AWS, Linux, Docker, Git, GitHub, Vercel, VS Code" />
+  <img src="https://skillicons.dev/icons?i=aws,linux,ubuntu,docker,git,github,vercel,vscode&theme=dark" alt="AWS, Linux, Ubuntu, Docker, Git, GitHub, Vercel, VS Code" />
   <br />
+  <img src="https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=black" alt="Render" />
   <img src="https://img.shields.io/badge/Claude_Code-D97757?style=for-the-badge&logo=anthropic&logoColor=white" alt="Claude Code" />
 </p>
 
