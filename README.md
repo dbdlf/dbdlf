@@ -4,7 +4,7 @@
 
 <br /><br />
 
-<img src="assets/quote.svg" width="100%" alt="Ula." />
+<img src="assets/quote.svg" width="100%" alt="Una." />
 
 </div>
 
