@@ -16,6 +16,7 @@
 
 ```python
 class Dbdlf:
+    name = "LIM YUJUNG"
     major = "Artificial Intelligence"
     minor = "Cloud Computing"
     languages = ["Python", "Java", "C", "C++", "JSX"]
