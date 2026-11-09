@@ -2,6 +2,10 @@
 
 <img src="assets/main.jpg" alt="main" width="100%" />
 
+<br /><br />
+
+<img src="assets/quote.svg" width="100%" alt="Ulalalala!! Yaha!! Ula! U-!!" />
+
 </div>
 
 ---
@@ -30,7 +34,6 @@
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=dbdlf&show_icons=true&theme=default&hide_border=true" height="160" alt="GitHub stats" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=dbdlf&layout=compact&hide_border=true" height="160" alt="Top languages" />
+<img src="assets/footer.gif" width="100%" alt="footer" />
 
 </div>
