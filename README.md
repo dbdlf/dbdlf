@@ -4,7 +4,7 @@
 
 <br /><br />
 
-<img src="assets/quote.svg" width="100%" alt="Ulalalala!! Yaha!! Ula! U-!!" />
+<img src="assets/quote.svg" width="100%" alt="Ula." />
 
 </div>
 
