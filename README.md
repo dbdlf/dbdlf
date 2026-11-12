@@ -8,7 +8,7 @@
 
 <br /><br />
 
-<img src="assets/terminal-v2.svg" width="100%" alt="$ whoami → dbdlf · AI major · Cloud minor · NLP &amp; Security" />
+<img src="assets/terminal-v3.svg" width="100%" alt="$ whoami → dbdlf · aspiring AI engineer · NLP · LLM · Cloud" />
 
 </div>
 
@@ -17,23 +17,25 @@
 ```python
 class Dbdlf:
     name = "LIM YUJUNG"
+    role = "AI Engineer (in progress)"
     major = "Artificial Intelligence"
     minor = "Cloud Convergence (Data Security COSS)"
     languages = ["Python", "Java", "C", "C++", "JSX"]
-    focus = ["NLP", "Machine Learning", "Cybersecurity", "Cloud"]
+    focus = ["NLP", "LLM Engineering", "MLOps"]
+    plus = ["Cloud", "Secure AI"]
     currently_learning = ["AWS", "Linux"]
-    next_up = ["Cybersecurity Developer Track @ CNU"]
     motto = "Una."
 ```
 
 ## `> cat roadmap.md`
 
-- 🗣️ **NLP** — making machines understand language
-- 🔐 **Cybersecurity** — CNU Information Security Specialized University · Cybersecurity Developer Track (2027 →)
-  - Secure Coding · Cloud Security · AI Security · Modern Cryptography
+- 🧠 **AI Engineering** — building NLP & LLM services, from model to production
+  - NLP · LLM Applications · Model Serving · MLOps
 - ☁️ **Cloud** — Cloud Convergence minor · CNU Data Security COSS
   - Cloud Platform Fundamentals · Cloud Utilization · Cloud Application SW Development
   - Cloud Database · Cloud Architecture · Cloud Service Design
+- 🛡️ **Secure AI** — CNU Cybersecurity Developer Track (2027 →)
+  - Trustworthy AI · AI Security · Cloud Security · Secure Coding
 
 ## `> ls ./languages`
 
