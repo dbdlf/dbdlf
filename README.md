@@ -8,7 +8,7 @@
 
 <br /><br />
 
-<img src="assets/terminal.svg" width="100%" alt="$ whoami → dbdlf · AI major · Cloud minor · building with LLMs" />
+<img src="assets/terminal-v2.svg" width="100%" alt="$ whoami → dbdlf · AI major · Cloud minor · NLP &amp; Security" />
 
 </div>
 
@@ -20,10 +20,18 @@ class Dbdlf:
     major = "Artificial Intelligence"
     minor = "Cloud Computing"
     languages = ["Python", "Java", "C", "C++", "JSX"]
-    focus = ["Machine Learning", "LLM Apps", "Cloud"]
+    focus = ["NLP", "Machine Learning", "Cybersecurity", "Cloud"]
     currently_learning = ["AWS", "Linux"]
+    next_up = ["Cybersecurity Developer Track @ CNU"]
     motto = "Una."
 ```
+
+## `> cat roadmap.md`
+
+- 🗣️ **NLP** — making machines understand language
+- 🔐 **Cybersecurity** — CNU Information Security Specialized University · Cybersecurity Developer Track (2027 →)
+  - Secure Coding · Cloud Security · AI Security · Modern Cryptography
+- ☁️ **Cloud** — Cloud Computing minor
 
 ## `> ls ./languages`
 

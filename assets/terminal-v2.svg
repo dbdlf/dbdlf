@@ -67,7 +67,7 @@
   </g>
 
   <!-- output 2 -->
-  <text x="30" y="172" class="mono out a3" textLength="473" lengthAdjust="spacingAndGlyphs">AI major · Cloud minor · building with LLMs</text>
+  <text x="30" y="172" class="mono out a3" textLength="451" lengthAdjust="spacingAndGlyphs">AI major · Cloud minor · NLP &amp; Security</text>
 
   <!-- line 3: prompt + cursor -->
   <g class="a4">
