@@ -18,7 +18,7 @@
 class Dbdlf:
     name = "LIM YUJUNG"
     major = "Artificial Intelligence"
-    minor = "Cloud Computing"
+    minor = "Cloud Convergence (Data Security COSS)"
     languages = ["Python", "Java", "C", "C++", "JSX"]
     focus = ["NLP", "Machine Learning", "Cybersecurity", "Cloud"]
     currently_learning = ["AWS", "Linux"]
@@ -31,7 +31,9 @@ class Dbdlf:
 - 🗣️ **NLP** — making machines understand language
 - 🔐 **Cybersecurity** — CNU Information Security Specialized University · Cybersecurity Developer Track (2027 →)
   - Secure Coding · Cloud Security · AI Security · Modern Cryptography
-- ☁️ **Cloud** — Cloud Computing minor
+- ☁️ **Cloud** — Cloud Convergence minor · CNU Data Security COSS
+  - Cloud Platform Fundamentals · Cloud Utilization · Cloud Application SW Development
+  - Cloud Database · Cloud Architecture · Cloud Service Design
 
 ## `> ls ./languages`
 
